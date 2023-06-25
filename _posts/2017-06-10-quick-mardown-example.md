@@ -153,7 +153,7 @@ Here's a "line block" (note how whitespace is honored):
 
 리포지터리에 이미지 파일을 넣어서 출력할 경우
 
-![image](/assets/images/bbs/Starry_Night.jpg "test image"){: width=80% height=80%}
+![image](/assets/images/bbs/Starry_Night.jpg "test image"){: width="80%" height="80%"}
 
 and images can be specified like so:
 
