@@ -153,6 +153,9 @@ Here's a "line block" (note how whitespace is honored):
 
 test images
 
+<img src="assets/images/bbs/Starry Night.jpg">
+
+
 ![image](https://github.com/gus0574/gus0574.github.io/tree/main/assets/images/bbs/Starry Night.jpg "test image")
 
 이건 되나
