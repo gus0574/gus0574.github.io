@@ -153,13 +153,15 @@ Here's a "line block" (note how whitespace is honored):
 
 test images
 
-<img src="assets/images/bbs/Starry Night.jpg">
+<img src="assets/images/bbs/Starry_Night.jpg">
+<img src="/assets/images/bbs/Starry_Night.jpg">
+<img src="./assets/images/bbs/Starry_Night.jpg">
 
 
 ![image](https://github.com/gus0574/gus0574.github.io/tree/main/assets/images/bbs/Starry Night.jpg "test image")
 
 이건 되나
-![Starry Night](https://github.com/gus0574/gus0574.github.io/assets/131754740/9a0d7db3-cfc1-4d4b-9bd6-723a5737604a "test33")
+![Starry Night](https://github.com/gus0574/gus0574.github.io/assets/131754740/9a0d7db3-cfc1-4d4b-9bd6-723a5737604a "test33"){: width="50% height="30%"}
 
 ![example image](https://raw.githubusercontent.com/gus0574/gus0574.github.io/main/assets/images/bbs/Starry_Night.jpg "test image2")
 
