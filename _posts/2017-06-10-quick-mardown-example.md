@@ -152,6 +152,7 @@ Here's a "line block" (note how whitespace is honored):
 | Line tree
 
 test images
+![image]
 (https://github.com/gus0574/gus0574.github.io/tree/main/assets/images/bbs/Starry Night.jpg "test image")
 
 and images can be specified like so:
