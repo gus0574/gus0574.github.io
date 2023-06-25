@@ -153,25 +153,7 @@ Here's a "line block" (note how whitespace is honored):
 
 리포지터리에 이미지 파일을 넣어서 출력할 경우
 
-<img src="/assets/images/bbs/Starry_Night.jpg">
-
-<img src="/assets/images/bbs/Starry_Night.jpg" alt="test test">
-
-![image](/assets/images/bbs/Starry_Night.jpg "test image")
-
-![image](https://github.com/gus0574/gus0574.github.io/tree/main/assets/images/bbs/Starry Night.jpg "test image")
-
-![example image](https://raw.githubusercontent.com/gus0574/gus0574.github.io/main/assets/images/bbs/Starry_Night.jpg "test image2")
-
-
-
-깃허브 ISSUE에서 이미지를 업로드하여 출력할 경우 (리포지터리에 넣을 필요가 없음)
-
-![Starry Night](https://github.com/gus0574/gus0574.github.io/assets/131754740/9a0d7db3-cfc1-4d4b-9bd6-723a5737604a "test33"){: width="50% height="30%"}
-
-![Travel with MOKOKO](https://github.com/gus0574/gus0574.github.io/assets/131754740/ae375fd0-f821-4f5d-98eb-915dbea69723)
-
-
+![image](/assets/images/bbs/Starry_Night.jpg "test image"){: width=80% height=80%}
 
 and images can be specified like so:
 
