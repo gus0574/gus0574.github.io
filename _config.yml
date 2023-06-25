@@ -207,7 +207,7 @@
 # Build settings
 # highlighter: none
 
-title: Do2Hyun 블로그
+title: Hello Do2Hyun Blog
 email: gus0574@gmail.com
 author: gus0574
 
@@ -217,11 +217,30 @@ description:  >- # this means to ignore newlines until "baseurl:"
   블로그 시작의 첫 걸음. 근데 생각보다 복잡하다.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. https://example.com
+url: "http://gus0574.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 favicon: "" # the favicon for your site
 
 yat:
   date_format: "%b %d, %Y"
+
+# If you want more debug log, you can set true, default is false
+debug: true
+
+# If you don't want transparent header, you can set false
+# header_transparent: true
+
+# If you want to change the content width, you can set to another value
+# content_width: "920px"
+
+# Google analytics - GA4
+# google_analytics: [Measurement ID]
+# enableDNT: "false"
+
+# If you want to generate website sitemap, you can set true , default is false
+sitemap: true
+
+# If you want to change site language, you can set lang option
+lang: "kor"  # default lang is en
 
 header_pages:
    - index.html
@@ -232,8 +251,8 @@ header_pages:
    
 defaults:
     home:
-      heading: "Do2Hyun"
-      subheading: "sub Do2Hyun"
+      heading: "Welcome My Blog"
+      subheading: "     sub Do2Hyun"
       banner: "/assets/images/banners/home.jpeg"
       
 banner:
@@ -241,7 +260,7 @@ banner:
   loop: true              # Video loop
   volume: 0               # Video volume (100% is 1.0)
   start_at: 0             # Video start time
-  image: /assets/images/banners/home.jpeg             # Image banner source
+  image: /assets/images/banners/Black and White MOKOKO.jpg              # Image banner source
   opacity: 1.0            # Banner opacity (100% is 1.0)
   background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
   height: "640px"         # Banner default height
@@ -256,16 +275,16 @@ excerpt_size: 350
 paginate: 5
 
 # Disqus comments
-disqus:
-  shortname: "Your Disqus username"
+# disqus:
+  # shortname: "Your Disqus username"
 
 # Gitment comments
 gitment:
-  username: "Your GitHub username"
-  repo: "The repo to store comments"
-  client_id: "Your client ID"
-  client_secret: "Your client secret"
-  redirect_uri: "Your redirect url"   # If you use a custom domain name
+  username: "gus0574"
+  # repo: "The repo to store comments"
+  # client_id: "Your client ID"
+  # client_secret: "Your client secret"
+  # redirect_uri: "Your redirect url"   # If you use a custom domain name
 
 # Utterances comments
 utterances:
