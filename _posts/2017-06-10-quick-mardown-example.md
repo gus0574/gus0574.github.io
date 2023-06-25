@@ -155,7 +155,7 @@ test images
 
 ![image](https://github.com/gus0574/gus0574.github.io/tree/main/assets/images/bbs/Starry Night.jpg "test image")
 
-![example image](https://github.com/gus0574/gus0574.github.io/tree/main/assets/images/bbs/Starry_Night.jpg "test image2")
+![example image](https://raw.githubusercontent.com/gus0574/gus0574.github.io/main/assets/images/bbs/Starry_Night.jpg "test image2")
 
 and images can be specified like so:
 
