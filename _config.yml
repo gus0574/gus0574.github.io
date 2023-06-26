@@ -216,7 +216,7 @@
 
     baseurl: "" # the subpath of your site, e.g. /blog
     url: "http://gus0574.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-    favicon: "/assets/pavicon.ico" # the favicon for your site
+    favicon: "/assets/favicon.ico" # the favicon for your site
 
     yat:
     date_format: "%b %d, %Y"
@@ -309,4 +309,4 @@
       - jekyll-sitemap
       - jekyll-paginate
       - jekyll-spaceship
-      - jekyll-remote-theme
+      # - jekyll-remote-theme
