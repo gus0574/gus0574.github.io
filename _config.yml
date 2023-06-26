@@ -284,11 +284,13 @@
       # client_secret: "Your client secret"
       # redirect_uri: "Your redirect url"   # If you use a custom domain name
 
-# Utterances comments 깃허브 댓글 라이브러리2  
+# Utterances comments 깃허브 댓글 라이브러리2. default는 _includes/extensions/comments/utterances.html 에 설정되어있는듯 utterances를 자신의 리포지터리에 install하고 아래처럼 저장하면된다. 나는 mapping을 title로 했다.  
     utterances:
-      repo: "gus0574/gus0574.github.io"
+      crossorigin: "anonymous"    # default anonymous
       issue_term: "title"
       label: "utterances comment"
+      repo: "gus0574/gus0574.github.io"
+      src: "https://utteranc.es/client.js"
       theme: "github-light"
       follow_site_theme: true
 

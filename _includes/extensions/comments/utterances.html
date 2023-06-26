@@ -29,11 +29,11 @@
 
   let utterancesScript = document.createElement('script');
   utterancesScript.async = true;
-  utterancesScript.src = 'https://utteranc.es/client.js';
-  utterancesScript.crossOrigin = 'anonymous';
+  utterancesScript.setAttribute('crossorigin', '{{ site.utterances.crossorigin }}');
   utterancesScript.setAttribute('issue-term', '{{ site.utterances.issue_term }}');
   utterancesScript.setAttribute('label', '{{ site.utterances.label }}');
   utterancesScript.setAttribute('repo', '{{ site.utterances.repo }}');
+  utterancesScript.setAttribute('src', '{{ site.utterances.src }}');
   utterancesScript.setAttribute('theme', utterancesThemeFromDataTheme());
 
   const placeholder = document.getElementById('utterances-placeholder');
@@ -41,11 +41,11 @@
 </script>
 {%- else -%}
 <script async
-        crossorigin="anonymous"
+        crossorigin="{{ site.utterances.crossorigin }}"
         issue-term="{{ site.utterances.issue_term }}"
         label="{{ site.utterances.label }}"
         repo="{{ site.utterances.repo }}"
-        src="https://utteranc.es/client.js"
+        src="{{ site.utterances.src }}"
         theme="{{ site.utterances.theme }}">
  </script>
 {%- endif -%}
