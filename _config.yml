@@ -207,103 +207,103 @@
 # Build settings
 # highlighter: none
 
-title: Do2Hyun  Blog
-email: gus0574@gmail.com
-author: gus0574
+    title: do2Hyun's  Blog
+    email: gus0574@gmail.com
+    author: do2Hyun(gus0574)
+    copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
+    description:  >- # this means to ignore newlines until "baseurl:"
+        블로그 시작의 첫 걸음. 근데 생각보다 복잡하다.
 
-copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
+    baseurl: "" # the subpath of your site, e.g. /blog
+    url: "http://gus0574.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+    favicon: "/assets/pavicon.ico" # the favicon for your site
 
-description:  >- # this means to ignore newlines until "baseurl:"
-  블로그 시작의 첫 걸음. 근데 생각보다 복잡하다.
-
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gus0574.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "" # the favicon for your site
-
-yat:
-  date_format: "%b %d, %Y"
+    yat:
+    date_format: "%b %d, %Y"
 
 # If you want more debug log, you can set true, default is false
-debug: true
+    debug: true
 
 # If you don't want transparent header, you can set false
-# header_transparent: true
+    # header_transparent: true
 
 # If you want to change the content width, you can set to another value
-# content_width: "920px"
+    # content_width: "920px"
 
-# Google analytics - GA4
-# google_analytics: [Measurement ID]
-# enableDNT: "false"
+# Google analytics - GA4, 구글의 방문통계 데이터수집. 회원가입 후 측정ID를 넣어주면 됨
+    google_analytics: [G-0Y1TSB821Y]
+    enableDNT: "false"
 
 # If you want to generate website sitemap, you can set true , default is false
-sitemap: true
+    sitemap: true
 
 # If you want to change site language, you can set lang option
-lang: "kor"  # default lang is en
+    lang: "kor"  # default lang is en
 
-header_pages:
-   - index.html
-   - archives.html
-   - categories.html
-   - tags.html
-   - about.markdown
-   
-defaults:
-    home:
-      heading: "Welcome My Blog"
-      subheading: "     sub Do2Hyun"
-      banner: "/assets/images/banners/home.jpeg"
-      
-banner:
-  video: null             # Video banner source
-  loop: true              # Video loop
-  volume: 0               # Video volume (100% is 1.0)
-  start_at: 0             # Video start time
-  image: /assets/images/banners/Black and White MOKOKO.jpg              # Image banner source
-  opacity: 1.0            # Banner opacity (100% is 1.0)
-  background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
-  height: "640px"         # Banner default height
-  min_height: null        # Banner minimum height
-  heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
-  subheading_style: null  # Custom subheading style (e.g. color: gold)
+    header_pages:
+       - index.html
+       - archives.html
+       - categories.html
+       - tags.html
+       - about.markdown
+       
+    defaults:
+        home:
+          heading: "Welcome My Blog"
+          subheading: "     sub Do2Hyun"
+          banner: "/assets/images/banners/home.jpeg" #this is default setting. dont modify
+          
+    banner:
+      video: null             # Video banner source
+      loop: true              # Video loop
+      volume: 0               # Video volume (100% is 1.0)
+      start_at: 0             # Video start time
+      image: /assets/images/banners/Black and White MOKOKO.jpg              # Here is Image banner source
+      opacity: 1.0            # Banner opacity (100% is 1.0)
+      background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
+      height: "640px"         # Banner default height
+      min_height: null        # Banner minimum height
+      heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
+      subheading_style: null  # Custom subheading style (e.g. color: gold)
   
 # Excerpt size setting
-excerpt_size: 350
+    excerpt_size: 500
 
-# Pagination setting
-paginate: 5
+# Pagination setting 페이지당 게시글 수
+    paginate: 10
 
-# Disqus comments
-# disqus:
-  # shortname: "Your Disqus username"
+# Disqus comments 디스커스 댓글기능은 광고가붙는다 조심
+    # disqus:
+      # shortname: "Your Disqus username"
 
-# Gitment comments
-gitment:
-  username: "gus0574"
-  # repo: "The repo to store comments"
-  # client_id: "Your client ID"
-  # client_secret: "Your client secret"
-  # redirect_uri: "Your redirect url"   # If you use a custom domain name
+# Gitment comments 깃 댓글 라이브러리 뭔가 어렵다
+    # gitment:
+      # username: "gus0574"
+      # repo: "https://gus0574.github.io/"
+      # client_id: "Your client ID"
+      # client_secret: "Your client secret"
+      # redirect_uri: "Your redirect url"   # If you use a custom domain name
 
-# Utterances comments
-utterances:
-  repo: "owner/repo"
-  issue_term: "title"
-  label: "utterances comment"
-  theme: "github-light"
-  follow_site_theme: true
+# Utterances comments 깃허브 댓글 라이브러리2  
+    utterances:
+      repo: "gus0574/gus0574.github.io"
+      issue_term: "title"
+      label: "utterances comment"
+      theme: "github-light"
+      follow_site_theme: true
 
 # Build settings
-highlighter: none
+    highlighter: none
 
-markdown: kramdown
-kmarkdown:
-  input: GFM
+    markdown: kramdown
+    remote_theme: jeffreytse/jekyll-theme-yat
+    kmarkdown:
+      input: GFM
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-spaceship
+    plugins:
+      - jekyll-feed
+      - jekyll-seo-tag
+      - jekyll-sitemap
+      - jekyll-paginate
+      - jekyll-spaceship
+      - jekyll-remote-theme
