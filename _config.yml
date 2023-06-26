@@ -224,11 +224,11 @@
 # If you want more debug log, you can set true, default is false
     debug: true
 
-# If you don't want transparent header, you can set false
-    # header_transparent: true
+# If you don't want transparent header, you can set false , default true
+    header_transparent: true
 
-# If you want to change the content width, you can set to another value
-    # content_width: "920px"
+# If you want to change the content width, you can set to another value 너비 default 920px
+    content_width: "1000px"
 
 # Google analytics - GA4, 구글의 방문통계 데이터수집. 회원가입 후 측정ID를 넣어주면 됨
     google_analytics: [G-0Y1TSB821Y]
@@ -245,7 +245,7 @@
        - archives.html
        - categories.html
        - tags.html
-       - about.markdown
+       - about.md
        
     defaults:
         home:
@@ -266,10 +266,10 @@
       heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
       subheading_style: null  # Custom subheading style (e.g. color: gold)
   
-# Excerpt size setting
-    excerpt_size: 500
+# Excerpt size setting 발췌 사이즈 default 350
+    excerpt_size: 300
 
-# Pagination setting 페이지당 게시글 수
+# Pagination setting 페이지당 게시글 수 default 5
     paginate: 10
 
 # Disqus comments 디스커스 댓글기능은 광고가붙는다 조심
@@ -285,6 +285,7 @@
       # redirect_uri: "Your redirect url"   # If you use a custom domain name
 
 # Utterances comments 깃허브 댓글 라이브러리2. default는 _includes/extensions/comments/utterances.html 에 설정되어있는듯 utterances를 자신의 리포지터리에 install하고 아래처럼 저장하면된다. 나는 mapping을 title로 했다.  
+# width의 경우 _sass/yat/_layout.scss에 .utterances를 추가해주었다.
     utterances:
       crossorigin: "anonymous"    # default anonymous
       issue_term: "title"
