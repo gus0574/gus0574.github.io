@@ -9,7 +9,7 @@ tags: [공부, 기타]
 ## <U> Spirng Framework Annotation </U>
 
 참고  
-[https://www.udemy.com/course/spring-boot-and-spring-framework-korean/learn/lecture][https://www.udemy.com/course/spring-boot-and-spring-framework-korean/learn/lecture]
+[https://www.udemy.com/course/spring-boot-and-spring-framework-korean/learn/lecture](https://www.udemy.com/course/spring-boot-and-spring-framework-korean/learn/lecture)
 
 
 #### @Configuration
