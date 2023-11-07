@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: 공부
-title: 중요 Spring 개념
+title: Spring Boot VS Spring MVC
 subtitle: 용어 정리
 tags: [공부, 기타]
 ---
